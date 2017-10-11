@@ -1,28 +1,24 @@
 {
-	"name" : "sn01615/comicool_sdk",
-	"description" : "http://www.comicool.cn/ API SDK",
-	"type" : "library",
-	"license" : "Apache License 2.0",
-	"authors" : [{
-			"name" : "YangLong",
-			"email" : "168119405@qq.com"
-		}
-	],
-	"autoload" : {
-		"psr-4" : {
-			"Comicool\\" : "src"
+	"name": "sn01615/comicool_sdk",
+	"description": "http://www.comicool.cn/ API SDK",
+	"type": "library",
+	"license": "Apache License 2.0",
+	"authors": [{
+		"name": "YangLong",
+		"email": "168119405@qq.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"Comicool\\": "src"
 		}
 	},
-	"repositories" : [{
-			"type" : "git",
-			"url" : "https://github.com/sn01615/comicool_sdk",
-			"name" : "GitHub"
-		}
-	],
-	"support" : {
-		"issues" : "https://github.com/sn01615/comicool_sdk/issues"
+	"repositories": [{
+		"type": "git",
+		"url": "https://github.com/sn01615/comicool_sdk",
+		"name": "GitHub"
+	}],
+	"support": {
+		"issues": "https://github.com/sn01615/comicool_sdk/issues"
 	},
-	"require" : {
-		"guzzlehttp/guzzle" : "~6.3"
-	}
+	"require": {}
 }
