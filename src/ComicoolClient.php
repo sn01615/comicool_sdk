@@ -70,12 +70,13 @@ class ComicoolClient
         ]);
     }
 
-    public function getComicChapters($comic_id)
+    public function getComicChapters($comic_id, $recent)
     {
         $apiName = $this->getApiName(__FUNCTION__);
         $callStr = $apiName;
         return $this->call($callStr, [
-            'comic_id' => $comic_id
+            'comic_id' => $comic_id,
+            'recent' => $recent
         ]);
     }
 
