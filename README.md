@@ -5,6 +5,10 @@
 ```php
 use Comicool\ComicoolClient;
 
+$client = new ComicoolClient();
+$client->setClientId('aaa');
+$client->setSecret('xxx');
+
 $last = null;
 $comics = $client->getComics($last);
 
