@@ -1,6 +1,10 @@
 # comicool_sdk
 可米酷API SDK PHP版
 
+# install
+```ps
+composer require sn01615/comicool_sdk
+```
 
 ```php
 use Comicool\ComicoolClient;
